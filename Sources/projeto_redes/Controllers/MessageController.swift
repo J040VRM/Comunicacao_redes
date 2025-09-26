@@ -15,9 +15,9 @@ struct MessageController: RouteCollection{
         messages.get(use: index)
         messages.post(use: create)
         
-        messages.group(":id") { todo in
-            messages.get(use: show)
-            messages.delete(use: delete)
+        messages.group(":id") { msg in
+            msg.get(use: show)
+            msg.delete(use: delete)
         }
     }
     
