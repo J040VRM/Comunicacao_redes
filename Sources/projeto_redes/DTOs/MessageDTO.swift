@@ -14,3 +14,10 @@ struct MessageDTO: Content{
     var message: String?
     
 }
+
+extension MessageDTO{
+    struct UpdateMessage: Content{
+        var messageId: UUID
+        var updatedMessage: String
+    }
+}

@@ -14,6 +14,7 @@ struct MessageController: RouteCollection{
         let messages = routes.grouped("messages")
         messages.get(use: index)
         messages.post(use: create)
+        messages.patch("message", use: updateMessage)
         
         messages.group(":id") { msg in
             msg.get(use: show)
@@ -44,6 +45,19 @@ struct MessageController: RouteCollection{
         }
         try await message.delete(on: req.db)
         return .ok
+    }
+    
+    func updateMessage(req: Request) async throws -> MessageDTO {
+        
+        let create = try req.content.decode(MessageDTO.UpdateMessage.self)
+        guard let message = try await Message.find(create.messageId, on: req.db) else {
+            throw Abort(.notFound)
+        }
+        
+        message.message = create.updatedMessage
+        try await message.update(on: req.db)
+        
+        return message.toDTO()
     }
 }
 
