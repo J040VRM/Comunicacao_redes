@@ -59,3 +59,43 @@ swift run
 # Run Python TCP client
 python3 TCP_req.py
 ```
+
+### 👤 Authors | Autores
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/alexandre-eiji-tomimura-carvalho-138212288/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="20"/>
+      </a>
+    </td>
+    <td>Alexandre Eiji Tomimura Carvalho</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-pioltini-de-oliveira-7422a625b/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="20"/>
+      </a>
+    </td>
+    <td>João Pedro Pioltini de Oliveira</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-rocha-miranda-/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="20"/>
+      </a>
+    </td>
+    <td>João Vitor Rocha Miranda
+</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/luiz-eduardo-bacha-4078452b8/" target="_blank">
+        <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="20"/>
+      </a>
+    </td>
+    <td>Luiz Eduardo Bacha</td>
+  </tr>
+</table>
