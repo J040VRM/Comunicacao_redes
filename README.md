@@ -43,13 +43,15 @@
 ---
 
 ### 📦 Dependencies | Dependências
-
+<div align="center">
+  
 ```bash
 Swift 5.7+
 Vapor 4
 Fluent (para persistência)
 Python 3.10+ (para cliente TCP de teste)
 ```
+</div>
 
 ### ▶️ How to Run | Como Executar
 ```bash
@@ -99,3 +101,4 @@ python3 TCP_req.py
     <td>Luiz Eduardo Bacha</td>
   </tr>
 </table>
+</div>
